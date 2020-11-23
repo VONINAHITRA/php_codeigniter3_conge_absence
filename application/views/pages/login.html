@@ -1,0 +1,2848 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 3 | Log in</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <a href="../../index2.html"><b>Admin</b>LTE</a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Sign in to start your session</p>
+
+      <form action="../../index3.html" method="post">
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Email">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+                Remember Me
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+      <div class="social-auth-links text-center mb-3">
+        <p>- OR -</p>
+        <a href="#" class="btn btn-block btn-primary">
+          <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
+        </a>
+        <a href="#" class="btn btn-block btn-danger">
+          <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
+        </a>
+      </div>
+      <!-- /.social-auth-links -->
+
+      <p class="mb-1">
+        <a href="#">I forgot my password</a>
+      </p>
+      <p class="mb-0">
+        <a href="register.html" class="text-center">Register a new membership</a>
+      </p>
+    </div>
+    <!-- /.login-card-body -->
+  </div>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+//////////////////paternite
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Paternité</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+<style type="text/css">
+    #ok{
+    text-decoration: none;
+  background-color: #e3293c;
+  background-image: -moz-linear-gradient(top, #e3293c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to right,#fff,#fff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  border-bottom-color: red;
+  border-bottom-width: 13%;
+          }
+     
+    #asideok{
+      background-image: url('<?php echo base_url('images/3.jpg') ?>');
+      background-size: ;
+      background-color: #7dbec5;
+    }
+    .sup a:hover{
+      font-size: 20px;
+    }
+    #okbtn{
+      color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7dbdc5), to(#7dbdc5));
+  background-image: -webkit-linear-gradient(top, #7dbdc5, #7dbdc5);
+  background-image: -o-linear-gradient(top, #00c3bc,#00c3bc);
+  background-image: linear-gradient(to bottom,#009540, #009540);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  font-size: 15px;
+     
+    }
+
+  </style>
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" id="ok" style="color: #000;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav" >
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" style="color: #7e5812;"><i class="fas fa-bars"></i></a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;margin-right: 0%;background-image: linear-gradient(to bottom,#fff, #fff);">
+        <a href="../../index3.html" class="nav-link" style="color: #7e5812;">Accueil</a>
+      </li>
+&nbsp;&nbsp;
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;width: 100%;background-image: linear-gradient(to bottom,#fff, #fff;">
+        <a href="#" class="nav-link" style="color: #7e5812;">Mon compte</a>
+      </li>
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown" style="color: #e4242b;">
+ <button class="btn btn-danger" style="width: 100%;font-size: 11.5px;">
+   <i class="fas fa-power-off" style="color: #000;font-size: 16px;"></i> Déconnexion</button>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4"  id="asideok" style=" border-radius: 0%; text-shadow: 5%;">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+     <div> <img style="width: 30%;border-radius: 50%;margin-left: 30%;margin-top: 6%;" src="<?php echo base_url('images/menetp.jpg');?>"></div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex" style=" border-radius: 1%; margin-top: 1%;" >
+
+        <p style="margin-left: 4px;font-size: 25px;color: #fff;" >
+          GESTION DE CONGE <br>ET  DES ABSENCES
+          <br>
+        </p>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+<li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/ListePersonnel" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Personnel
+                <i class="fas fa--left right"></i>
+              </p>
+            </a>
+          </li>
+       <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/adminCompte" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Compte utilisateur
+                <i class="fas fa--left right"></i>
+              </p>
+            </a>
+          </li>
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/adminDecision"  class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Décision de congés
+               
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/autorisation" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+                Absences
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+                Congés
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+<style type="text/css">
+  .patern :hover{
+    color: #108496;
+    cursor: default;
+  }
+  .patern{
+
+  }
+</style>
+            <ul class="nav patern">
+              <li class="an" style="margin-left: 10%; width: 100%;margin-bottom: 1.5%;">
+                <a href="#" class="nav-link " style="font-size: 14px;background-color: #dadce0;color:#433a31;">
+                  <p>Congé annuel</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;  width: 100%;">
+                <a href="#" class="nav-link active" style="font-size: 14px;background-color: #dadce0;color:#433a31;">
+                  <p>Congé de paternité</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;width: 100%;margin-top: 0.3%;">
+                <a href="<?php echo base_url();?>control/listeMaterniteAdmin" class="nav-link" style="font-size: 14px;background-color: #dadce0;color:#433a31;">
+                  <p>Congé de maternité</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <h4 style="margin-left: -0.3%;padding: 2%;font-size: 30px;color: #0a4c69;"><b><i class="fas fa-folder-open" style="margin-top: -6%;color: #0a4c69;"></i>&nbsp;&nbsp;Congé de paternité</b></h4>
+       <p style="margin-top: -6px;margin-left: 20px;text-decoration: underline;color:#0b4d69 ">
+        LISTE DES PERSONNELS AYANT DE DROIT DE CONGE
+       </p>
+        <div class="row mt-4">
+            <nav class="w-150">
+              <div class="nav nav-tabs" id="product-tab" role="tablist">
+                <a class="nav-item nav-link active" id="product-desc-tab" data-toggle="tab" href="#product-desc" role="tab" aria-controls="product-desc" aria-selected="true">Demandes</a>
+                <a class="nav-item nav-link" id="product-comments-tab" data-toggle="tab" href="#product-comments" role="tab" aria-controls="product-comments" aria-selected="false">Demande accepté</a>
+                <a class="nav-item nav-link" id="product-rating-tab" data-toggle="tab" href="#product-rating" role="tab" aria-controls="product-rating" aria-selected="false">Demande non accepté</a>
+              </div>
+            </nav>
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 102%;">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                  <th>Matricule</th>
+                  <th>Année</th>
+                  <th >Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th >Status</th>
+                  <th>Consultation</th>
+                  <th style="text-align: center;">Votre avis ?</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <?php 
+                  if($Paternite){
+                    foreach ($Paternite as $pa) {
+                   ?>
+                    <?php 
+                    if($pa->status_patern=="En cours" ){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $pa->im_patern; ?></td>
+                  <td><?php echo $pa->annee_patern; ?></td>
+                  <td><?php echo $pa->nbjrs_patern; ?></td>
+                  <td><?php echo $pa->lieu_patern; ?></td>
+                  <td><?php echo $pa->dtpat_patern; ?></td>
+                  <td><?php echo $pa->dtdep_patern; ?></td>
+                  <td><?php echo $pa->dtdrt_patern; ?></td>
+                  <td><?php echo $pa->status_patern; ?></td>
+                  <td>
+                    <form method="post" action="paternConsulter">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <button title="Consulter" type="submit" class="btn btn-default" style=" font-size: 14px;margin-left: 20%;"> <i class="fas  fa-info-circle " style="color: #094c69;font-size: 14px;" id="infos"></i></button>
+                    </form>
+                  </td>
+                  <td width="14.8%;">
+                    <form method="post" action="paternValider">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern; ?>">
+                    <input type="hidden" name="dtpat_patern" value="<?php echo $pa->dtpat_patern;?>">
+                   <button title="Avis favorable" type="submit" class="btn btn-default"  style="font-size: 14px; width: 30%;margin-left: 20%;">
+                      <i class="fas fa-check" style="color: #00953e;font-size: 18px;margin-left: 5%;"></i>
+                   </button>
+                 </div>
+                   </form>
+                  <div width="13.8%;" style="float: right;margin-top: -21.5%;">
+                 <form method="post" action="paternRejeter">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern;?>">
+                    <input type="hidden" name="dtpat_patern" value="<?php echo $pa->dtpat_patern;?>">
+                  <button title="Avis non favorable" class="btn btn-default" style="font-size: 14px;margin-left: -65%;margin-top: -16%;" >
+                    <i class="fas   fa-times " style="color: #094c69;font-size: 15px;color: #dc1c00"></i> </button>
+                   </form>
+                </td>
+                </tr>
+
+                <?php
+              }else{
+
+               echo "";
+                  
+                }
+                }
+              }
+                 ?>
+                </tbody>
+              </table>
+ </div>
+              <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab"> 
+             <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 106%;">
+                <thead>
+                <tr  style="background-color: #00953f;color:#fff;border-color: red;">
+                 <th>Matricule</th>
+                  <th>année</th>
+                  <th width="6%;">Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Status</th>
+                  <th>Impression</th>
+                  <th style="text-align: center; width: 19.5%;">Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($Paternite){
+                    foreach ($Paternite as $pa) {
+                   ?>
+                   <?php 
+                    if($pa->status_patern=="Valider"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $pa->im_patern; ?></td>
+                  <td><?php echo $pa->annee_patern; ?></td>
+                  <td><?php echo $pa->nbjrs_patern; ?></td>
+                  <td><?php echo $pa->lieu_patern; ?></td>
+                  <td><?php echo $pa->dtpat_patern; ?></td>
+                  <td><?php echo $pa->dtdep_patern; ?></td>
+                  <td><?php echo $pa->dtdrt_patern; ?></td>
+                  <td><?php echo $pa->status_patern; ?></td>
+                  <td><a href="<?php echo base_url('control/paternValider/'.$pa->id_patern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');">
+                    <button class="btn btn-default" style="font-size: 12px;margin-top: 5%;margin-left: 17%;">
+                    <i class="fas   fa-file-pdf " style="color: #084c69;font-size: 13px;margin-left: 15%;"></i></button></a></td>
+                  <td>
+                    <form method="post" action="deletepaternV">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern;?>">
+                    <input type="hidden" name="dtdec_patern" value="<?php echo $pa->dtpat_patern;?>">
+                    <button type="submit" class="btn btn-default" style="font-size: 12px; margin-top: 4%;margin-left: 47%;"><i class="fas   fa-trash " style="color: #094c69;font-size: 13px;color: #dc1c00"></i></button>
+                  </form></td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+               </div>
+              <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab">
+
+<table id="example1" class="table table-bordered table-striped" style="font-size: 13px;width: 106%; ">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                 <th>Matricule</th>
+                  <th>année</th>
+                  <th width="6%;">Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Status</th>
+                  <th style="text-align: center; width: 19.5%;">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <?php 
+                  if($Paternite){
+                    foreach ($Paternite as $pa) {
+                   ?>
+                    <?php 
+                    if($pa->status_patern=="Rejeter"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $pa->im_patern; ?></td>
+                  <td><?php echo $pa->annee_patern; ?></td>
+                  <td><?php echo $pa->nbjrs_patern; ?></td>
+                  <td><?php echo $pa->lieu_patern; ?></td>
+                  <td><?php echo $pa->dtpat_patern; ?></td>
+                  <td><?php echo $pa->dtdep_patern; ?></td>
+                  <td><?php echo $pa->dtdrt_patern; ?></td>
+                  <td><?php echo $pa->status_patern; ?></td>
+
+                  <td>
+                    <form method="post" action="deletepaternR">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern;?>">
+                    <input type="hidden" name="dtdec_patern" value="<?php echo $pa->dtpat_patern;?>">
+                    <button type="submit" class="btn btn-default" style="font-size: 12px; margin-top: 4%;margin-left: 47%;"><i class="fas   fa-trash " style="color: #094c69;font-size: 13px;color: #dc1c00"></i></button>
+                  </form>
+
+
+                  </td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+               </div>
+            </div>
+          </div>
+  </div>
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 1.0
+    </div>
+<b>M</b>inistère de l'<b>E</b>ducation <b>N</b>ationale ,de l'<b>E</b>nseignement <b>T</b>echnique et <b>P</b>rofessionnel
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Paternité</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../../index3.html" class="nav-link">Accueil</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Mon compte</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+ Se déconnecter
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="<?php echo base_url() ?>images/user.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Personnel</a>
+        </div>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/listedecision2"  class="nav-link active" style="background-color: #128496;">
+              <p>
+               Décision de congés
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Absences
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Congés
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="#" class="nav-link " class="nav-link active" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé annuel</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listePaternitePerso" class="nav-link" class="nav-link active" style="font-size: 13px;background-color: #dadce0; color:#343a40;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de paternité</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listeMaternitePerso" class="nav-link" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de maternité</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <h4 style="margin-left: 2%;padding: 2%;"><u>Liste des congés de paternités</u></h4>
+  
+        <div class="row mt-4">
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+              <button type="button" style="margin-left: 105%; margin-bottom: 0.5%;font-size: 12px;" class="btn btn-info" id ="btnModal" data-toggle="modal" data-target="#modal-overlay">
+            Nouveau
+              </button>
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 115%;">
+                <thead>
+                <tr style="background-color: #128496;color: #fff; width: 100%;">
+
+                  <th width="2%;">Im</th>
+                  <th width="7%;">Année</th>
+                  <th width="13%;">Lieu de jouissance</th>
+                  <th width="13%;">Nombres de jours </th>
+                  <th width="11%;">Date de congé</th>
+                  <th width="11%;">Date de départ</th>
+                  <th width="11%;">Date de retour</th>
+                  <th width="7%;">Statut</th>
+                  <th width="10%;">Actions</th>
+                 
+                </tr>
+                </thead>
+                <tbody>
+                 
+                 <?php 
+                  if($Paternite){
+                    foreach ($Paternite as $pa) {
+                   ?>
+                    
+                <tr style="background-color: #fff;">
+                  <td><?php echo $pa->im_patern; ?></td>
+                  <td><?php echo $pa->annee_patern; ?></td>
+                  <td><?php echo $pa->lieu_patern; ?></td>
+                  <td><?php echo $pa->nbjrs_patern; ?></td>
+                  <td><?php echo $pa->dtpat_patern; ?></td>
+                  <td><?php echo $pa->dtdep_patern; ?></td>
+                  <td><?php echo $pa->dtdrt_patern; ?></td>
+                  <td><?php echo $pa->status_patern; ?></td>
+                  <td width="15%;">
+                  <?php if($pa->status_patern=="En cours"){?> 
+                    <form action="modifierDmd" method="post">
+                    <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern;?>">
+                    <input type="hidden" name="dtpat_patern" value="<?php echo $pa->dtpat_patern;?>">
+                    <button class="btn btn-warning"  type="submit" style="font-size: 12px; color: #fff;  margin-top: -2%; margin-left: 0%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Modifer </button>
+                    </form>
+                    <form action="annulerDmd" method="post">
+                     <input type="hidden" name="im_patern" value="<?php echo $pa->im_patern; ?>">
+                    <input type="hidden" name="annee_patern" value="<?php echo $pa->annee_patern;?>">
+                    <input type="hidden" name="dtpat_patern" value="<?php echo $pa->dtpat_patern;?>">
+                    <button class="btn btn-danger"  type="submit" style="font-size: 12px; margin-right: 0%; float: right; margin-top: -22%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Annuler </button>
+                    </form>
+                    <?php }else{ echo "";}?>
+                  <?php if($pa->status_patern=="Valider"){?>
+                  
+                  <a href="<?php echo base_url('control/congeRejeter/'.$pa->id_patern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-info" style="font-size: 12px;">Imprimer</button></a>
+                  </td>
+                  <?php }else{ echo "";}?>
+
+                  <?php if($pa->status_patern=="Rejeter"){?>
+                  <a href="<?php echo base_url('control/congeRejeter/'.$pa->im_patern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-danger" style="font-size: 12px;">Supprimer</button></a>
+
+                  <?php }else{ echo "";}?>
+                 </tr>
+
+                <?php
+              }
+                }
+                
+                 ?>
+
+                </tbody>
+              </table>
+       </div>
+
+            </div>
+          </div>
+  </div>
+
+  <section class="content">
+      <div class="modal fade" id="modal-overlay">
+        <div class="modal-dialog modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: #118496;color: #fff;">
+              <h4 class="modal-title" style="margin-left: 15%;">Nouveau demande de conge de paternité</h4>
+              <a href="<?php echo base_url('control/ListePersonnel');?>" onClick="return confirm('voullez-vous vraiment quitter ?');"><button type="button" style="background-color: red;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> </a>
+            </div>
+            <div class="modal-body" >
+              <form method="post" action="<?php echo base_url(); ?>control/demandePaternite">
+                 <!--Matricule-->
+              <div class="col-5">
+                <label><u>Im</u></label>
+                <input type="number" class="form-control" maxlength="6" name="im_patern" placeholder="Votre Im">  
+              </div>
+                <!--N° décision-->
+              <div class="form-group">
+                <label><u>Année</u></label>
+                        <select class="form-control select2" style="width: 100%;" name="annee_patern">
+                     <option selected="selected">---------Sélectionner l'année----------</option>
+                    <option> <?php  echo date("Y"); ?></option>
+                    <option><?php echo date("Y")-1; ?></option>
+                  </select>
+               </div>
+                <!--Nbj jrs-->
+             <div class="form-group">
+                        <label><u>Vous avez </u></label>
+                        <input type="number" disabled=""  class="form-control" name="nbjrs_patern"  placeholder="15 jours" >
+               </div>
+                <!--Aut titre de l'année-->
+             <div class="form-group">
+                        <label><u>Lieu de jouissance</u></label>
+                  <input type="text"  class="form-control" name="lieu_patern">      
+             </div>
+               <div class="form-group">
+                        <label><u>Date de départ</u></label>
+                  <input type="date"  class="form-control" name="dtdp_patern">      
+               </div>
+            <div class="modal-footer justify-content-between">
+              <button type="reset" class="btn btn-default" style="margin-left: 25%;color: #fff; background-color: #128496;"  >Annuler</button>
+              <button type="submit" class="btn btn-primary" style="margin-right: 25%;color: #fff; background-color: #128496;">Sauvegarder</button>
+            </div>
+              </form>
+          </div>
+          
+          <!-- /.modal-content -->
+        </div>
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </section>
+              
+
+
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery Modal-->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+
+
+
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>maternité</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../../index3.html" class="nav-link">Accueil</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Mon compte</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+ Se déconnecter
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="<?php echo base_url() ?>images/user.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Personnel</a>
+        </div>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/listedecision2"  class="nav-link active" style="background-color: #128496;">
+              <p>
+               Décision de congés
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Absences
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Congés
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="#" class="nav-link " class="nav-link active" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé annuel</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listePaternitePerso" class="nav-link" class="nav-link" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de paternité</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listeMaternitePerso" class="nav-link active" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de maternité</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <h4 style="margin-left: 2%;padding: 2%;"><u>Liste des congés de maternités</u></h4>
+  
+        <div class="row mt-4">
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+              <button type="button" style="margin-left: 105%; margin-bottom: 0.5%;font-size: 12px;" class="btn btn-info" id ="btnModal" data-toggle="modal" data-target="#modal-overlay">
+            Nouveau
+              </button>
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 115%;">
+                <thead>
+                <tr style="background-color: #128496;color: #fff; width: 100%;">
+
+                  <th width="2%;">Im</th>
+                  <th width="7%;">Année</th>
+                  <th width="13%;">Lieu de jouissance</th>
+                  <th width="13%;">Nombres de jours </th>
+                  <th width="11%;">Date de congé</th>
+                  <th width="11%;">Date de départ</th>
+                  <th width="11%;">Date de retour</th>
+                  <th width="7%;">Statut</th>
+                  <th width="10%;">Actions</th>
+                 
+                </tr>
+                </thead>
+                <tbody>
+                 
+                 <?php 
+                  if($Maternite){
+                    foreach ($Maternite as $mat) {
+                   ?>
+                    
+                <tr style="background-color: #fff;">
+                  <td><?php echo $mat->im_matern; ?></td>
+                  <td><?php echo $mat->annee_matern; ?></td>
+                  <td><?php echo $mat->lieu_matern; ?></td>
+                  <td><?php echo $mat->nbjrs_matern; ?></td>
+                  <td><?php echo $mat->dtmat_matern; ?></td>
+                  <td><?php echo $mat->dtdep_matern; ?></td>
+                  <td><?php echo $mat->dtdrt_matern; ?></td>
+                  <td><?php echo $mat->status_matern; ?></td>
+                  <td width="15%;">
+                  <?php if($mat->status_matern=="En cours"){?> 
+                    <form action="modifierDmd" method="post">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern;?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                    <button class="btn btn-warning"  type="submit" style="font-size: 12px; color: #fff;  margin-top: -2%; margin-left: 0%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Modifer </button>
+                    </form>
+                    <form action="annulerDmd" method="post">
+                     <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern;?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                    <button class="btn btn-danger"  type="submit" style="font-size: 12px; margin-right: 0%; float: right; margin-top: -22%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Annuler </button>
+                    </form>
+                    <?php }else{ echo "";}?>
+                  <?php if($mat->status_matern=="Valider"){?>
+                  
+                  <a href="<?php echo base_url('control/congeRejeter/'.$mat->id_matern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-info" style="font-size: 12px;">Imprimer</button></a>
+                  </td>
+                  <?php }else{ echo "";}?>
+
+                  <?php if($mat->status_matern=="Rejeter"){?>
+                  <a href="<?php echo base_url('control/congeRejeter/'.$mat->im_matern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-danger" style="font-size: 12px;">Supprimer</button></a>
+
+                  <?php }else{ echo "";}?>
+                 </tr>
+
+                <?php
+              }
+                }
+                
+                 ?>
+
+                </tbody>
+              </table>
+       </div>
+
+            </div>
+          </div>
+  </div>
+
+  <section class="content">
+      <div class="modal fade" id="modal-overlay">
+        <div class="modal-dialog modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: #118496;color: #fff;">
+              <h4 class="modal-title" style="margin-left: 15%;">Nouveau demande de conge de maternité</h4>
+              <a href="<?php echo base_url('control/ListePersonnel');?>" onClick="return confirm('voullez-vous vraiment quitter ?');"><button type="button" style="background-color: red;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> </a>
+            </div>
+            <div class="modal-body" >
+              <form method="post" action="<?php echo base_url(); ?>control/demandematernite">
+                 <!--Matricule-->
+              <div class="col-5">
+                <label><u>Im</u></label>
+                <input type="number" class="form-control" maxlength="6" name="im_matern" placeholder="Votre Im">  
+              </div>
+                <!--N° décision-->
+              <div class="form-group">
+                <label><u>Année</u></label>
+                        <select class="form-control select2" style="width: 100%;" name="annee_matern">
+                     <option selected="selected">---------Sélectionner l'année----------</option>
+                    <option> <?php  echo date("Y"); ?></option>
+                    <option><?php echo date("Y")-1; ?></option>
+                  </select>
+               </div>
+                <!--Nbj jrs-->
+             <div class="form-group">
+                        <label><u>Vous avez </u></label>
+                        <input type="number" disabled=""  class="form-control" name="nbjrs_matern"  placeholder="15 jours" >
+               </div>
+                <!--Aut titre de l'année-->
+             <div class="form-group">
+                        <label><u>Lieu de jouissance</u></label>
+                  <input type="text"  class="form-control" name="lieu_matern">      
+             </div>
+               <div class="form-group">
+                        <label><u>Date de départ</u></label>
+                  <input type="date"  class="form-control" name="dtdp_matern">      
+               </div>
+            <div class="modal-footer justify-content-between">
+              <button type="reset" class="btn btn-default" style="margin-left: 25%;color: #fff; background-color: #128496;"  >Annuler</button>
+              <button type="submit" class="btn btn-primary" style="margin-right: 25%;color: #fff; background-color: #128496;">Sauvegarder</button>
+            </div>
+              </form>
+          </div>
+          
+          <!-- /.modal-content -->
+        </div>
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </section>
+              
+
+
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery Modal-->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Maternité</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style type="text/css">
+
+    #ok{
+    text-decoration: none;
+  background-color: #e3293c;
+  background-image: -moz-linear-gradient(top, #e3293c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to right,#fff,#fff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  border-bottom-color: red;
+  border-bottom-width: 13%;
+          }
+     
+    #asideok{
+      background-image: url('<?php echo base_url('images/3.jpg') ?>');
+      background-size: ;
+      background-color: #7dbec5;
+    }
+    .sup a:hover{
+      font-size: 20px;
+    }
+    #okbtn{
+      color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7dbdc5), to(#7dbdc5));
+  background-image: -webkit-linear-gradient(top, #7dbdc5, #7dbdc5);
+  background-image: -o-linear-gradient(top, #00c3bc,#00c3bc);
+  background-image: linear-gradient(to bottom,#009540, #009540);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  font-size: 14px;
+     
+    }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+   <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-color: #7dbec5;" id="ok">
+    <!-- Left navbar links -->
+   <ul class="navbar-nav" >
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" style="color: #7e5812;"><i class="fas fa-bars"></i></a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;margin-right: 0%;background-image: linear-gradient(to bottom,#fff, #fff);">
+        <a href="../../index3.html" class="nav-link" style="color: #7e5812;">Accueil</a>
+      </li>
+&nbsp;&nbsp;
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;width: 100%;background-image: linear-gradient(to bottom,#fff, #fff;">
+        <a href="#" class="nav-link" style="color: #7e5812;">Mon compte</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+    
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown" style="color: #e4242b;">
+ <button class="btn btn-danger" style="width: 100%;font-size: 11.5px;">
+   <i class="fas fa-power-off" style="color: #000;font-size: 16px;"></i> Déconnexion</button>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" id="asideok">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+     <div> <img style="width: 30%;border-radius: 50%;margin-left: 30%;margin-top: 6%;" src="<?php echo base_url('images/menetp.jpg');?>"></div>
+       <div class="user-panel mt-3 pb-3 mb-3 d-flex" style=" border-radius: 1%; margin-top: 1%;" >
+        <p style="margin-left: 4px;font-size: 25px; color: #fff;" >
+          GESTION DE CONGE <br>ET  DES ABSENCES
+          <br>
+
+        </p>
+
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+<li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/ListePersonnel" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Personnel
+                <i class="fas fa--left right"></i>
+              </p>
+            </a>
+          </li>
+       <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/adminCompte" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Compte utilisateur
+                <i class="fas fa--left right"></i>
+              </p>
+            </a>
+          </li>
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/adminDecision"  class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+               Décision de congés
+               
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/autorisation" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+                Absences
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #118496;" id = "okbtn">
+              <p>
+                Congés
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+<style type="text/css">
+  .matern :hover{
+    color: #108496;
+    cursor: default;
+  }
+  .matern{
+
+  }
+</style>
+            <ul class="nav matern">
+              <li class="an" style="margin-left: 10%; ">
+                <a href="<?php echo base_url(); ?>control/home" class="nav-link " style="font-size: 13px; ">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé annuel</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listePaterniteAdmin" class="nav-link" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de paternité</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;width: 100%;">
+                <a href="<?php echo base_url(); ?>control/listeMaterniteAdmin" class="nav-link active" style="font-size: 13px;background-color: #fff; color:#343a40;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Congé de maternité</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <h4 style="margin-left: 2%;padding: 2%;"><u>Liste des congés annuel</u></h4>
+  
+        <div class="row mt-4">
+            <nav class="w-150">
+              <div class="nav nav-tabs" id="product-tab" role="tablist">
+                <a class="nav-item nav-link active" id="product-desc-tab" data-toggle="tab" href="#product-desc" role="tab" aria-controls="product-desc" aria-selected="true">Congés annuel demande avis favorable</a>
+                <a class="nav-item nav-link" id="product-comments-tab" data-toggle="tab" href="#product-comments" role="tab" aria-controls="product-comments" aria-selected="false">Congé annuel avec avis favorable</a>
+                <a class="nav-item nav-link" id="product-rating-tab" data-toggle="tab" href="#product-rating" role="tab" aria-controls="product-rating" aria-selected="false">Congé annuel rejeter</a>
+              </div>
+            </nav>
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 100%;">
+                <thead>
+                <tr style="background-color: #009540;color: #fff; font-size: 12px; font-style: normal;">
+                 <th>Matricule</th>
+                  <th>Année</th>
+                  <th width="6%;">Nombre de mois </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Status</th>
+                  <th>Consultation</th>
+                  <th style="text-align: center; width: 19.5%;">Votre avis ?</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <?php 
+                  if($Maternite){
+                    foreach ($Maternite as $mat) {
+                   ?>
+                    <?php 
+                    if($mat->status_matern=="En cours" ){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $mat->im_matern; ?></td>
+                  <td><?php echo $mat->annee_matern; ?></td>
+                  <td><?php echo $mat->lieu_matern; ?></td>
+                  <td><?php echo $mat->nbjrs_matern; ?></td>
+                  <td><?php echo $mat->dtmat_matern; ?></td>
+                  <td><?php echo $mat->dtdep_matern; ?></td>
+                  <td><?php echo $mat->dtdrt_matern; ?></td>
+                  <td><?php echo $mat->status_matern; ?></td>
+                  <td>
+                    <form method="post" action="maternConsulter">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                   <button title="Consulter" type="submit" class="btn btn-default" style="font-size: 12px;width: 70%;margin-left: 6px;"><i class="fas  fa-info-circle " style="color: #094c69;font-size: 18px;" id="infos"></i></button>
+                    </form>
+                  </td>
+                  <td width="16.8%;">
+                    <form method="post" action="maternValider">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern; ?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                   <button title="Avis favorable" type="submit" class="btn btn-default"  style="font-size: 14px;margin-left: 16%;">
+                      <i class="fas fa-check" style="color: #00953e;font-size: 18px; "></i></button>
+                  </form>
+
+                  <div style="float: right;margin-top: -21.5%;margin-right: 30%;">
+                 <form method="post" action="maternRejeter">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern;?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                    <button title="Avis non favorable" type="submit" class="btn btn-default" style="font-size: 14px;margin-right: 40%;" ><i class="fas fa-times" style="color: #dc1c00;font-size: 18px;margin-right: 30%;"></i></button>
+                  </form>
+                </td>
+                </tr>
+
+                <?php
+              }else{
+
+               echo "";
+                  
+                }
+                }
+              }
+                 ?>
+                </tbody>
+              </table>
+ </div>
+              <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab"> 
+             <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; ">
+                <thead>
+                <tr style="background-color: #009540;color: #fff;">
+                 <th>Im</th>
+                  <th>année</th>
+                  <th width="6%;">Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Status</th>
+                  <th>Impression</th>
+                  <th style="text-align: center; width: 19.5%;">Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($Maternite){
+                    foreach ($Maternite as $mat) {
+                   ?>
+                   <?php 
+                    if($mat->status_matern=="Valider"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $mat->im_matern; ?></td>
+                  <td><?php echo $mat->annee_matern; ?></td>
+                  <td><?php echo $mat->lieu_matern; ?></td>
+                  <td><?php echo $mat->nbjrs_matern; ?></td>
+                  <td><?php echo $mat->dtmat_matern; ?></td>
+                  <td><?php echo $mat->dtdep_matern; ?></td>
+                  <td><?php echo $mat->dtdrt_matern; ?></td>
+                  <td><?php echo $mat->status_matern; ?></td>
+                  <td><a href="<?php echo base_url('control/maternValider/'.$mat->id_matern);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');">
+                    <button title="Consulter" type="submit" class="btn btn-default" style="font-size: 12px;width: 70%;margin-left: 6px;"><i class="fas  fa-file-pdf " style="color: #094c69;font-size: 18px;" id="infos"></i></button></a></td>
+                  <td>
+                    <form method="post" action="deletematernV">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern;?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                    <button title="Avis non favorable" type="submit" class="btn btn-default" style="font-size: 14px;margin-left: 32%;" ><i class="fas fa-times" style="color: #dc1c00;font-size: 18px;"></i></button>
+                  </form></td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+               </div>
+              <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab">
+
+<table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 100%;">
+                <thead>
+                <tr style="background-color: #009540;color: #fff;">
+                  <th>Im</th>
+                  <th>année</th>
+                  <th width="6%;">Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Status</th>
+                  <th style="text-align: center; width: 19.5%;">Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($Maternite){
+                    foreach ($Maternite as $mat) {
+                   ?>
+                    <?php 
+                    if($mat->status_matern=="Rejeter"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $mat->im_matern; ?></td>
+                  <td><?php echo $mat->annee_matern; ?></td>
+                  <td><?php echo $mat->lieu_matern; ?></td>
+                  <td><?php echo $mat->nbjrs_matern; ?></td>
+                  <td><?php echo $mat->dtmat_matern; ?></td>
+                  <td><?php echo $mat->dtdep_matern; ?></td>
+                  <td><?php echo $mat->dtdrt_matern; ?></td>
+                  <td><?php echo $mat->status_matern; ?></td>
+                  
+                  <td>
+                    <form method="post" action="deletematernR">
+                    <input type="hidden" name="im_matern" value="<?php echo $mat->im_matern; ?>">
+                    <input type="hidden" name="annee_matern" value="<?php echo $mat->annee_matern;?>">
+                    <input type="hidden" name="dtmat_matern" value="<?php echo $mat->dtmat_matern;?>">
+                    <button title="Avis non favorable" type="submit" class="btn btn-default" style="font-size: 14px;margin-left: 32%;" ><i class="fas fa-trash" style="color: #dc1c00;font-size: 18px;"></i></button>
+                  </form>
+
+
+                  </td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+
+               </div>
+            </div>
+          </div>
+  </div>
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Autorisation</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style type="text/css">
+
+    #ok{
+    text-decoration: none;
+  background-color: #e3293c;
+  background-image: -moz-linear-gradient(top, #e3293c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to right,#fff,#fff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  border-bottom-color: red;
+  border-bottom-width: 13%;
+          }
+     
+    #asideok{
+      background-image: url('<?php echo base_url('images/3.jpg') ?>');
+      background-size: ;
+      background-color: #7dbec5;
+    }
+    .sup a:hover{
+      font-size: 20px;
+    }
+    #okbtn{
+      color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7dbdc5), to(#7dbdc5));
+  background-image: -webkit-linear-gradient(top, #7dbdc5, #7dbdc5);
+  background-image: -o-linear-gradient(top, #00c3bc,#00c3bc);
+  background-image: linear-gradient(to bottom,#009540, #009540);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  font-size: 15px;
+     
+    }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+<nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-color: #7dbec5;" id="ok">
+    <!-- Left navbar links -->
+   <ul class="navbar-nav" >
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" style="color: #7e5812;"><i class="fas fa-bars"></i></a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;margin-right: 0%;background-image: linear-gradient(to bottom,#fff, #fff);">
+        <a href="../../index3.html" class="nav-link" style="color: #7e5812;">Accueil</a>
+      </li>
+&nbsp;&nbsp;
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;width: 100%;background-image: linear-gradient(to bottom,#fff, #fff;">
+        <a href="#" class="nav-link" style="color: #7e5812;">Mon compte</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+    
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown" style="color: #e4242b;">
+ <button class="btn btn-danger" style="width: 100%;font-size: 11.5px;">
+   <i class="fas fa-power-off" style="color: #000;font-size: 16px;"></i> Déconnexion</button>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" id="asideok">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div> <img style="width: 30%;border-radius: 50%;margin-left: 30%;margin-top: 6%;" src="<?php echo base_url('images/menetp.jpg');?>"></div>
+       <div class="user-panel mt-3 pb-3 mb-3 d-flex" style=" border-radius: 1%; margin-top: 1%;" >
+        <p style="margin-left: 4px;font-size: 25px; color: #fff;" >
+          GESTION DE CONGE <br>ET  DES ABSENCES
+          <br>
+
+        </p>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+      
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+<li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/ListePersonnel" class="nav-link active" style="background-color: #118496;"id = "okbtn">
+              <p>
+               Personnel
+                
+              </p>
+            </a>
+          </li>
+       <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url(); ?>control/adminCompte" class="nav-link active" style="background-color: #118496;"id = "okbtn">
+              <p>
+               Compte utilisateur
+                <i class="fas fa--left right"></i>
+              </p>
+            </a>
+          </li>
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/adminDecision"  class="nav-link active" style="background-color: #118496;"id = "okbtn">
+              <p>
+               Décision de congés
+               
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/autorisationLien" class="nav-link active" style="background-color: #118496;"id = "okbtn">
+              <p>
+                Absences
+              </p>
+            </a>
+             <ul class="nav conge">
+              <li class="nav-item" style="margin-left: 10%;width: 100%;margin-top: 3%;">
+                <a href="<?php echo base_url(); ?>control/listePaterniteAdmin" class="nav-link active" style="font-size: 13px;background-color: #dadce0; color:#343a40;">
+                  
+                  <p>Autorisation</p> <i class="fas fa-angle-right " style="margin-left: 55%;font-size: 18px;"></i>   
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;width: 100%;">
+                <a href="<?php echo base_url();?>control/listeMaterniteAdmin" class="nav-link" style="font-size: 13px;background-color: #dadce0; color:#343a40;">
+                   
+                  <p>Permission</p>    
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #118496;"id = "okbtn">
+              <p>
+                Congés
+               
+              </p>
+            </a>
+<style type="text/css">
+  .conge a:hover{
+    color: #108496;
+    cursor: default;
+    font-size: 16px;
+  }
+  .conge{
+
+  }
+</style>
+           
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+</style>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+ <h4 style="margin-left: -0.3%;padding: 2%;font-size: 30px;"><b><i class="fas fa-calendar-check" style="margin-top: -6%;color: #094c69;"></i>&nbsp;Autorisation d'absence</b></h4>
+  
+  <p style="margin-top: -6px;margin-left: 20px;text-decoration: underline;color:#0b4d69 ">
+        LISTE DES AUTORISATION D'ABSENCE
+       </p>
+  
+        <div class="row mt-4">
+            <nav class="w-150">
+              <div class="nav nav-tabs" id="product-tab" role="tablist">
+                <a class="nav-item nav-link active" id="product-desc-tab" data-toggle="tab" href="#product-desc" role="tab" aria-controls="product-desc" aria-selected="true">Demande d'autorisation d'absence</a>
+                <a class="nav-item nav-link" id="product-comments-tab" data-toggle="tab" href="#product-comments" role="tab" aria-controls="product-comments" aria-selected="false">Demande favorable</a>
+                <a class="nav-item nav-link" id="product-rating-tab" data-toggle="tab" href="#product-rating" role="tab" aria-controls="product-rating" aria-selected="false">Demande non favorable</a>
+              </div>
+            </nav>
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 100%;">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                  <th>N° décision</th>
+                  <th>Im</th>
+                  <th>Titre (année) </th>
+                  <th>Motif</th>
+                  <th>Nombre jours </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de décision</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th>Consultation</th>
+                  <th style="text-align: center; width: 19.5%;">Votre avis ?</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($CongeCours){
+                    foreach ($CongeCours as $cg) {
+                   ?>
+                    <?php 
+                    if($cg->status_conge=="En cours" ){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $cg->numdec_conge; ?></td>
+                  <td><?php echo $cg->im_conge; ?></td>
+                  <td><?php echo $cg->titre_conge; ?></td>
+                  <td><?php echo $cg->motif_conge; ?></td>
+                  <td><?php echo $cg->nbjrs_conge; ?></td>
+                  <td><?php echo $cg->lieu_conge; ?></td>
+                  <td><?php echo $cg->dtdec_conge; ?></td>
+                  <td><?php echo $cg->dtdep_conge; ?></td>
+                  <td><?php echo $cg->dtrtr_conge; ?></td>
+                  <td>
+                    <form method="post" action="congeConsulter">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <button type="submit" class="btn btn-info" style="font-size: 12px;">Consulter</button>
+                    </form>
+                  </td>
+                  <td width="16.8%;">
+                    <form method="post" action="congeValider">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge; ?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button type="submit" class="btn btn-info" style="font-size: 12px;">Favorable</button>
+                  </form>
+                  <div style="float: right;margin-top: -21.5%;">
+                 <form method="post" action="congeRejeter">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge;?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button type="submit" class="btn btn-danger" style="font-size: 12px; margin-top: 7.8%;">Non favorable</button>
+                  </form>
+                </td>
+                </tr>
+
+                <?php
+              }else{
+
+               echo "";
+                  
+                }
+                }
+              }
+                 ?>
+                </tbody>
+              </table>
+ </div>
+              <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab"> 
+             <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; ">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                  <th>N° déc</th>
+                  <th>Im</th>
+                  <th>Titre (année) </th>
+                  <th>Motif</th>
+                  <th>Nbr jrs </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Dt de décision</th>
+                  <th>Dt de départ</th>
+                  <th>Dt de retour</th>
+                  <th>imprimer</th>
+                  <th>Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($CongeCours){
+                    foreach ($CongeCours as $cg) {
+                   ?>
+                   <?php 
+                    if($cg->status_conge=="Valider"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $cg->numdec_conge; ?></td>
+                  <td><?php echo $cg->im_conge; ?></td>
+                  <td><?php echo $cg->titre_conge; ?></td>
+                  <td><?php echo $cg->motif_conge; ?></td>
+                  <td><?php echo $cg->nbjrs_conge; ?></td>
+                  <td><?php echo $cg->lieu_conge; ?></td>
+                  <td><?php echo $cg->dtdec_conge; ?></td>
+                  <td><?php echo $cg->dtdep_conge; ?></td>
+                  <td><?php echo $cg->dtrtr_conge; ?></td>
+                  <td><a href="<?php echo base_url('control/congeValider/'.$cg->id_conge);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-info" style="background-color: #1fb9e3;font-size: 12px;">
+                    Imprimer</button></a></td>
+                  <td>
+                    <form method="post" action="deleteCongeV">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge;?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button type="submit" class="btn btn-danger" style="font-size: 12px; margin-top: 7.8%;">Sup</button>
+                  </form></td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+               </div>
+              <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab">
+
+<table id="example1" class="table table-bordered table-striped" style="font-size: 13px; ">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                  <th>N° déc</th>
+                  <th>Im</th>
+                  <th>Titre (année) </th>
+                  <th>Motif</th>
+                  <th>Nbr jrs </th>
+                  <th>Lieu de jouissance</th>
+                  <th>Dt de décision</th>
+                  <th>Dt de départ</th>
+                  <th>Dt de retour</th>
+                  <th>Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                  <?php 
+                  if($CongeCours){
+                    foreach ($CongeCours as $cg) {
+                   ?>
+                    <?php 
+                    if($cg->status_conge=="Rejeter"){
+                    ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $cg->numdec_conge; ?></td>
+                  <td><?php echo $cg->im_conge; ?></td>
+                  <td><?php echo $cg->titre_conge; ?></td>
+                  <td><?php echo $cg->motif_conge; ?></td>
+                  <td><?php echo $cg->nbjrs_conge; ?></td>
+                  <td><?php echo $cg->lieu_conge; ?></td>
+                  <td><?php echo $cg->dtdec_conge; ?></td>
+                  <td><?php echo $cg->dtdep_conge; ?></td>
+                  <td><?php echo $cg->dtrtr_conge; ?></td>
+                  
+                  <td>
+                    <form method="post" action="deleteCongeR">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge;?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button type="submit" class="btn btn-danger" style="font-size: 12px; margin-top: 7.8%;">Sup</button>
+                  </form>
+
+
+                  </td>
+                  
+                </tr>
+                <?php }else{
+
+                }
+                }}
+                 ?>
+                </tbody>
+              </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               </div>
+            </div>
+          </div>
+  </div>
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+
+
+
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Autorisation</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../../index3.html" class="nav-link">Accueil</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Mon compte</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+ Se déconnecter
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="<?php echo base_url() ?>images/user.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Personnel</a>
+        </div>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/listedecision2"  class="nav-link active" style="background-color: #128496;">
+              <p>
+               Décision de congés
+              </p>
+            </a>
+          </li>
+   <li style="margin-bottom: 2%;">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Absences
+
+              </p>
+            </a>
+
+              <li class="nav-item" style="margin-left: 10%;margin-top: 3%;">
+                <a href="<?php echo base_url();?>control/lienautorisationPerso" class="nav-link active" style="font-size: 13px; background-color: #fff; color: #000;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Autorisation</p>
+                </a>
+              </li>
+              <li class="nav-item" style="margin-left: 10%;">
+                <a href="<?php echo base_url();?>control/listePermissionPerso" class="nav-link" style="font-size: 13px;">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Permission</p>
+                </a>
+              </li>
+          </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active" style="background-color: #128496;">
+              <p>
+                Congés
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <h4 style="margin-left: 2%;padding: 2%;"><u>Liste des congés annuel</u></h4>
+  
+        <div class="row mt-4">
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+              <button type="button" style="margin-left: 91.5%; margin-bottom: 0.5%;font-size: 12px;" class="btn btn-info" id ="btnModal" data-toggle="modal" data-target="#modal-overlay">
+            Nouveau
+              </button>
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; width: 100%;">
+                <thead>
+                <tr style="background-color: #128496;color: #fff;">
+                  <th>Matricule</th>
+                  <th width="9%;">Année</th>
+                  <th>Motif</th>
+                  <th>Nombres de jours demandes </th>
+                  <th>Nombres de jours disponibles pour l'année <?php echo date("Y"); ?></th>
+                  <th>Lieu de jouissance</th>
+                  <th>Date de départ</th>
+                  <th>Date de retour</th>
+                  <th width="8%;">Statut</th>
+                  <th width="10%;">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                 
+                 <?php 
+                  if($Conge){
+                    foreach ($Conge as $cg) {
+                   ?>
+                    
+                <tr style="background-color: #fff;">
+                  <td><?php echo $cg->numdec_conge; ?></td>
+                  <td><?php echo $cg->im_conge; ?></td>
+                  <td><?php echo $cg->titre_conge; ?></td>
+                  <td><?php echo $cg->motif_conge; ?></td>
+                  <td><?php echo $cg->nbjrs_conge; ?></td>
+                  <td><?php echo $cg->lieu_conge; ?></td>
+                  <td><?php echo $cg->dtdec_conge; ?></td>
+                  <td><?php echo $cg->dtdep_conge; ?></td>
+                  <td><?php echo $cg->dtrtr_conge; ?></td>
+                  <td><?php echo $cg->status_conge; ?></td>
+                  <td width="15%;">
+                  <?php if($cg->status_conge=="En cours"){?> 
+                    <form action="modifierDmd" method="post">
+                    <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge;?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button class="btn btn-warning"  type="submit" style="font-size: 12px; color: #fff;  margin-top: 0%; margin-left: 0%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Modifer </button>
+                    </form>
+                    <form action="annulerDmd" method="post">
+                     <input type="hidden" name="im_conge" value="<?php echo $cg->im_conge; ?>">
+                    <input type="hidden" name="titre_conge" value="<?php echo $cg->titre_conge;?>">
+                    <input type="hidden" name="dtdec_conge" value="<?php echo $cg->dtdec_conge;?>">
+                    <button class="btn btn-danger"  type="submit" style="font-size: 12px; margin-right: 0%; float: right; margin-top: -22.5%;" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"> Annuler </button>
+                    </form>
+
+
+                    <?php }else{ echo "";}?>
+                  <?php if($cg->status_conge=="Valider"){?>
+                  
+                  <a href="<?php echo base_url('control/congeRejeter/'.$cg->id_conge);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-info" style="font-size: 12px;">Imprimer</button></a>
+                </td>
+                  <?php }else{ echo "";}?>
+
+                  <?php if($cg->status_conge=="Rejeter"){?>
+                  <a href="<?php echo base_url('control/congeRejeter/'.$cg->im_conge);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-danger" style="font-size: 12px;">Supprimer</button></a>
+                  <?php }else{ echo "";}?>
+                </tr>
+
+                <?php
+              }
+                }
+                
+                 ?>
+
+                </tbody>
+              </table>
+       </div>
+
+            </div>
+          </div>
+  </div>
+
+  <section class="content">
+      <div class="modal fade" id="modal-overlay">
+        <div class="modal-dialog modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: #118496;color: #fff;">
+              <h4 class="modal-title" style="margin-left: 15%;">Nouveau demande de conge</h4>
+              <a href="<?php echo base_url('control/ListePersonnel');?>" onClick="return confirm('voullez-vous vraiment quitter ?');"><button type="button" style="background-color: red;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> </a>
+            </div>
+            <div class="modal-body" >
+              <form method="post" action="<?php echo base_url(); ?>control/demandeCongeAnnuel">
+                 <!--Matricule-->
+              <div class="col-5">
+                <label><u>Im</u></label>
+                <input type="number" class="form-control" maxlength="6" name="im_conge" placeholder="Votre Im">  
+              </div>
+              
+               <div class="form-group">
+                        <label><u>Motif</u></label>
+                        <select class="form-control select2" style="width: 100%;" name="motif_conge">
+                    <option selected="selected">----------------Séléctionner votre motif----------------</option>
+                    <option>évènement familliale</option>
+                    <option>enterrement d une proche</option>
+                    <option>Autres motifs</option>
+                  </select>
+               </div>
+                <!--Nbj jrs-->
+             <div class="form-group">
+                        <label><u>Demi-journé (12 heurs)</u></label>
+                        <input type="number"  class="form-control" name="nbjrs_conge" >
+               </div>
+                <!--Aut titre de l'année-->
+             <div class="form-group">
+                        <label><u>Lieu de jouissance</u></label>
+                  <input type="text"  class="form-control" name="lieu_conge">      
+               </div>
+               <div class="form-group">
+                        <label><u>Date de départ</u></label>
+                  <input type="date"  class="form-control" name="dtdp_conge">      
+               </div>
+            <div class="modal-footer justify-content-between">
+              <button type="reset" class="btn btn-default" style="margin-left: 25%;color: #fff; background-color: #128496;"  >Annuler</button>
+              <button type="submit" class="btn btn-primary" style="margin-right: 25%;color: #fff; background-color: #128496;">Sauvegarder</button>
+            </div>
+              </form>
+          </div>
+          
+          <!-- /.modal-content -->
+        </div>
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </section>
+              
+
+
+  
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery Modal-->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+
+
+
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+p<!DOCTYPE html>  
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AGC</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/dist/css/adminlte.min.css">
+
+  <!-- Select2 -->
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>documents/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="<?php echo base_url();?>documents/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <style type="text/css">
+    #ok{
+    text-decoration: none;
+  background-color: #e3293c;
+  background-image: -moz-linear-gradient(top, #e3293c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to right,#fff,#fff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  border-bottom-color: red;
+  border-bottom-width: 13%;
+  margin-top: -1.7%;
+          }
+     
+    #asideok{
+      background-image: url('<?php echo base_url('images/3.jpg') ?>');
+      background-size: ;
+      background-color: #7dbec5;
+    }
+    .sup a:hover{
+      font-size: 20px;
+    }
+    #okbtn{
+      color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7dbdc5), to(#7dbdc5));
+  background-image: -webkit-linear-gradient(top, #7dbdc5, #7dbdc5);
+  background-image: -o-linear-gradient(top, #00c3bc,#00c3bc);
+  background-image: linear-gradient(to bottom,#009540, #009540);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  font-size: 15px;
+     
+    }
+
+  </style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light" id="ok" style="color: #000;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav" >
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" style="color: #7e5812;"><i class="fas fa-bars"></i></a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;margin-right: 0%;background-image: linear-gradient(to bottom,#fff, #fff);">
+        <a href="../../index3.html" class="nav-link" style="color: #7e5812;">Accueil</a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block" style="background-color: #fff;border-radius: 2%;width: 100%;background-image: linear-gradient(to bottom,#fff, #fff;">
+        <a href="#" class="nav-link" style="color: #7e5812;">Mon compte</a>
+      </li>
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown" style="color: #e4242b;">
+ <button class="btn btn-danger" style="width: 100%;font-size: 11.5px;">
+   <i class="fas fa-power-off" style="color: #000;font-size: 16px;"></i> Déconnexion</button>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4"  id="asideok" style=" border-radius: 0%; text-shadow: 5%;">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div> <img style="width: 30%;border-radius: 50%;margin-left: 30%;margin-top: 6%;" src="<?php echo base_url('images/menetp.jpg');?>"></div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex" style=" border-radius: 1%; margin-top: 1%;" >
+
+        <p style="margin-left: 4px;font-size: 25px;color: #fff;" >
+          GESTION DE CONGE <br>ET  DES ABSENCES
+          <br>
+        </p>
+      </div>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+      
+<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+<li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/ListePersonnel" class="nav-link active" style="background-color: #128496; " id = "okbtn">
+              <p>
+               Personnel
+              </p>
+            </a>
+          </li>
+       <li style="margin-bottom: 2%;">
+            <a href="#" class="nav-link active" style="background-color: #128496;" id = "okbtn">
+              <p>
+               Compte utilisateur      
+              </p>
+            </a>
+          </li>
+           <li style="margin-bottom: 2%;">
+            <a href="<?php echo base_url();?>control/adminDecision"  class="nav-link active" style="background-color: #128496;" id = "okbtn">
+              <p>
+               Décision de congés
+              </p>
+            </a>
+          </li>
+         <li style="margin-bottom: 2%;">
+            <a href="#" class="nav-link active" style="background-color: #128496;" id = "okbtn">
+              <p>
+                Absences
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+          </li>
+
+          <li style="margin-bottom: 2%">
+            <a href="<?php echo base_url();?>control/home" class="nav-link active" style="background-color: #128496;" id = "okbtn">
+              <p>
+                Congés    
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+ 
+  <div class="content-wrapper">
+
+  <h4 style="margin-left: -0.3%;padding: 2%;font-size: 30px;"><b><i class="fas fa-user" style="margin-top: 0%;color: #0a4c69"></i>&nbsp;&nbsp;Compte utilisateur</b></h4>
+       <p style="margin-top: -6px;margin-left: 20px;text-decoration: underline;color:#0b4d69 ">
+        LISTE DES PERSONNELS AYANT DE COMPTE
+       </p>
+          <div class="tab-content p-3" id="nav-tabContent" style="margin-top: -3%">
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> 
+                  <div class="row mt-4" style="margin-bottom: 1%;">
+            <button type="button" style="margin-left: 89.5%; margin-top: 0%;font-size: 14px;color: #000;border-color: #0c4d69;border-style: double; background-color: #f4f6f9; "class="btn btn-info" id ="btnModal" data-toggle="modal" data-target="#modal-overlay">
+              <i class="fas fa-plus" style="color: #0b4d69;font-size: 16px;"></i>
+            Nouveaus
+            </button>
+   </div>
+
+          <table id="example1" class="table table-bordered table-striped" style="font-size: 13px; ">
+                <thead>
+                <tr style="background-color: #00953f;color:#fff;border-color: red;">
+                  <th>Matricule</th>
+                  <th>Pseudo</th>
+                  <th>Email</th>
+                  <th>Mot de passe</th>
+                  <th>Privillège</th>
+                  <th style="text-align: center;">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php 
+                  if($Compte){
+                    foreach ($Compte as $cpt) {
+                   ?>
+                <tr style="background-color: #fff;">
+                  <td><?php echo $cpt->im_user; ?></td>
+                  <td><?php echo $cpt->pseudo_user; ?></td>
+                  <td><?php echo $cpt->email_user; ?></td>
+                  <td><?php echo $cpt->pass_user; ?></td>
+                  <td><?php echo $cpt->privi_user; ?></td>
+                  <td width="14%;"><a style="font-size: 12px;" href="<?php echo base_url('control/updateCompte/'.$cpt->im_user);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-default" style="font-size: 14px;margin-left:14%; ">
+                    <i class="fas  fa-edit " style="color: #094c69;font-size: 13px;color: #f69a06;"></i></button></a>
+                  <a  href="<?php echo base_url('control/deleteCompte/'.$cpt->im_user);?>" onClick="return confirm('voullez-vous vraiment effectuer cette opération ?');"><button class="btn btn-default" style="font-size: 14px;margin-left: 53%;margin-top: -22%;"><i class="fas   fa-trash " style="color: #094c69;font-size: 13px;color: #dc1c00"></i></button></a></td>
+                </tr>
+                <?php
+                }}
+                 ?>
+                </tbody>
+              </table>
+ </div>
+</div>
+<section class="content">
+      <div class="modal fade" id="modal-overlay">
+        <div class="modal-dialog modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" style="margin-left: 25%;"><u>Nouveau compte</u></h4>
+              <a href="<?php echo base_url('control/ListePersonnel');?>" onClick="return confirm('voullez-vous vraiment quitter ?');"><button type="button" style="background-color: red;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> </a>
+            </div>
+            <div class="modal-body" >
+              <form method="post" action="<?php echo base_url(); ?>control/addCompte">
+             
+              <!--Matricule-->
+              <div class="col-5">
+               
+                <label><u>Im</u></label>
+  
+                <input type="number" class="form-control" maxlength="6" name="im_user" placeholder="Votre Im">
+                   
+              </div>
+              <!--Pseudo-->
+             <div class="form-group">
+                        <label><u>Pseudo</u></label>
+                        <input type="text"  maxlength="10" class="form-control" name="pseudo_user" placeholder="Votre pseudo">
+               </div>
+                <!--Email-->
+             <div class="form-group">
+                        <label><u>Email</u></label>
+                        <input type="email" class="form-control" name="email_user" placeholder="Votre email">
+               </div>
+               <!--Nouveau mot de passe-->
+             <div class="form-group">
+                        <label><u>Nouveau mot de passe</u></label>
+                        <input type="password" class="form-control" name="pass_user1" placeholder="Votre mot de passe">
+               </div>
+               <!--Resaissir mot d epasse-->
+             <div class="form-group">
+                        <label><u>Confirmation du nouveau mot de passe</u></label>
+                        <input type="password" class="form-control" name="pass_user2" placeholder="Confirmation de mot de passe">
+               </div>
+            
+               <!--privillege-->
+                  <label><u>Pirvillège</u></label>
+                  <select class="form-control select2" style="width: 100%;" name="privi_user">
+                    <option selected="selected">Admin</option>
+                    <option>Personnel</option>
+                  </select>
+            <div class="modal-footer justify-content-between">
+              <button type="reset" class="btn btn-default" style="margin-left: 25%;color: #fff; background-color: #128496;"  >Annuler</button>
+              <button type="submit" class="btn btn-primary" style="margin-right: 25%;color: #fff; background-color: #128496;">Sauvegarder</button>
+            </div>
+
+
+
+
+              </form>
+          </div>
+          
+          <!-- /.modal-content -->
+        </div>
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </section>
+              
+  
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url();?>documents/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery DataTable -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?php echo base_url();?>documents/plugins/datatables/jquery.dataTables.js"></script>
+
+<script src="<?php echo base_url();?>documents/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- page script Pagination -->
+
+<!-- jQuery Modal-->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="<?php echo base_url();?>documents/plugins/sweetalert2/sweetalert2.min.js"></script>
+<!-- Toastr -->
+<script src="<?php echo base_url();?>documents/plugins/toastr/toastr.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+
+<!-- jQuery Page choix -->
+<script src="<?php echo base_url();?>documents/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url();?>documents/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url();?>documents/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url();?>documents/dist/js/demo.js"></script>
+<!-- Select2 -->
+<script src="<?php echo base_url();?>documents/plugins/select2/js/select2.full.min.js"></script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });
+  });
+</script>
+</body>
+</html>

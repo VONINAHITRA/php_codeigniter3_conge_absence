@@ -1,0 +1,17 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style=" position: fixed;width: 18%;background-color: #fff;">
+
+    <!-- Sidebar -->
+    <div class="sidebar okfixer"> 
+<div> <img style="width: 40%;border-radius: 50%;margin-left: 30%;margin-top: 6%;" src="<?php echo base_url('images/menetp.jpg');?>"></div>
+       <div class="user-panel mt-3 pb-3 mb-3 d-flex" style=" border-radius: 1%; margin-top: 1%;" >
+        <p style="margin-left: 4px;font-size: 11px;margin-top: -1.9%; color: #179942;" >
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;
+          Ministère de l'Education Nationale de<br>
+           l'Enseignement Technique et Professionnel
+          <br>
+
+        </p>
+
+      </div> 
+  </aside>

@@ -1,0 +1,36 @@
+#btnModal{
+	margin-left: 90%;
+}
+.dcnx{
+
+}
+.dcnx:hover{
+	color: #f00;
+}
+.sel{
+	margin-left: 20%;
+}
+.info{
+	font-size: 25px;
+	color: #fff;
+}
+.ok{
+	background-color: #128496;
+	color: #fff;
+}
+.champ{
+	margin-top: 2%;
+	width: 250px;
+}
+.modal-body{
+ margin-left: 20%;
+}
+.modal-header{
+	background-color: #128496;
+	text-align: center;
+	color: #fff;
+}
+.modal-title{
+	text-align: center;
+	margin-left: 35%;
+}

@@ -1,0 +1,155 @@
+#example1{
+	font-size: 13px;
+  color: #000;
+  
+}
+.tabtr{
+	background-color: #f4f6f9;
+	color: #000;
+	font-size: 11.5px;
+border-color: #000;
+	font-family: sans-serif;
+}
+#btnModalx{  
+margin-left: 90%;
+ margin-top: 0%;
+ font-size: 14px;
+ color: #fff;
+ border-color: #179841;
+ border-style: double;
+ background-color: #bb2939;
+}
+#btnDemandeConge{
+  margin-left: 90%;
+ margin-top: 0%;
+ font-size: 14px;
+ color: #fff;
+ border-color: #179841;
+ border-style: double;
+ background-color: #bb2939;
+}
+.lien{
+	background-color: #c51f31;
+	margin-bottom: 0.05%;
+	margin-left: 0%;
+}
+.line:hover{
+	color: red;
+}
+.trash-perso{
+	color: #c82232;
+	font-size: 18px;
+	margin-left: 70% ;
+	margin-top: -90%;
+	float: right;
+
+}
+.divtrash-perso{
+	margin-top: -10%;
+}
+.edit-perso{
+	color: #169841;
+	font-size: 18px;
+	margin-left: 0% ;
+	float: left;
+
+}
+
+.barresx {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to left, #bb2739,#179941);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+
+
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                 
+                <tr class="tabtr">
+                  <th>Matricule</th>
+                  <th>Nom et prénom(s)</th>
+                  <th>Sexe</th>
+                  <th>Corps</th>
+                  <th>Grade</th>
+                  <th>Direction</th>
+                  <th>Lieu de service</th>
+                  <th>Budget</th>
+                  <th>Chapitre budgetaire</th>
+                  <th width="10%;">Actions</th>
+                </tr>
+                
+                </thead>
+                <tbody>
+                   <?php 
+                  if($Perso){
+                    foreach ($Perso as $p) {
+                   ?>
+                <tr>
+                  <td><?php echo $p->im_perso; ?></td>
+                  <td><?php echo $p->nomPre_perso; ?></td>
+                  <td><?php echo $p->sexe_perso; ?></td>
+                  <td><?php echo $p->corps_perso; ?></td>
+                  <td><?php echo $p->grade_perso; ?></td>
+                  <td><?php echo $p->direction_perso; ?></td>
+                  <td><?php echo $p->lieuService_perso; ?></td>
+                  <td><?php echo $p->budget_perso; ?></td>
+                  <td><?php echo $p->chapitreBudget_perso; ?></td>
+                 <td>
+                  <span class="fas fa-edit" style="color: #189942;font-size: 17px;margin-left: 15%;"></span>&nbsp;&nbsp;|
+                  <span class="fas fa-trash" style="margin-left: 6%;font-size: 17px;color: #c82132;"></span>
+                 </td>
+                </tr>
+                 <?php
+                }}
+                 ?>
+               
+              </table>
+
+
+               var html = '';
+        var i;
+        for(i=0;i<data.length; i++){
+          html +='<tr>'+
+                  '<td>1</td>'+
+                  '<td>VORO</td>'+
+                  '<td>21</td>'+
+                  '<td>1EZA</td>'+
+                  '<td>12</td>'+
+                  '<td>1190</td>'+
+                  '<td>112</td>'+
+                  '<td>fdvsr</td>'+
+                  '<td>nyn</td>'+
+                  '<td>1000</td>'+
+                  '</tr>';
+        }
+        $('#affichage').html(html);
+
+
+//changer icon
+jQuery(document).on('click', '.button' ,function() {
+
+   jQuery(this).find('span').toggleClass('minus').toggleClass('plus');
+
+});
+
+
+jQuery(document).on('click', '.button' ,function() {
+   jQuery('a.button > span').removeClass('minus').addClass('plus');
+ jQuery(this).find('span').toggleClass('plus').toggleClass('minus');
+});
+
+.plus { border: 1px solid blue } /* ( + Icon ) */
+.minus {border: 1px solid red } /* (

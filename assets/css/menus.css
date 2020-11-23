@@ -1,0 +1,34 @@
+#menu {	
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 100px;
+	padding: 10px;	
+	text-decoration: none;
+}
+
+#menu li	{	
+	list-style-type: none;
+	list-style-position: none;	
+}
+
+ a	{
+	text-decoration: none;
+}
+
+#menu li a	{	
+	text-decoration: none;
+}
+
+#menu li a:hover	{
+	cursor: pointer;
+}
+
+#centre	{
+	height: 100px;
+	width: 100px;
+}
+
+.item	{
+	position: absolute;
+}
